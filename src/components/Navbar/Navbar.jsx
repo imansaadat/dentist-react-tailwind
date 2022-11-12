@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import NavLinks from './NavLinks'
 // react scroll
 import { Link } from 'react-scroll';
@@ -15,13 +15,17 @@ const Navbar = () => {
      setNav(!nav)
   }
 
-  window.addEventListener("scroll",()=>{
-     if(window.scrollY){
-        setBg(true)
-     }else{
-        setBg(false)
-     }
-  })
+   useEffect(()=>{
+   const handleScroll = () =>{
+      if(window.scrollY){
+         setBg(true)
+      }else{
+         setBg(false)
+      }
+   }  
+   window.addEventListener('scroll',handleScroll)
+  },[])
+  
   return (
     <header className={`fixed w-full left-0 top-0  border-b-2 border-[#0000001a] z-10 ${bg ? 'bg-white border-b-0':''}`}>
     <nav className='flex justify-between items-center max-w-[1200px] mx-auto px-5 h-20'>
