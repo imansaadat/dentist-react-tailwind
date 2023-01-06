@@ -27,7 +27,7 @@ const Navbar = () => {
   },[])
   
   return (
-    <header className={`fixed w-full left-0 top-0 z-10 ${bg ? 'bg-white shadow-md':''}`}>
+    <header className={`fixed w-full left-0 top-0 z-10 duration-300 ${bg ? 'bg-white shadow-md':''}`}>
     <nav className='flex justify-between items-center max-w-[1200px] mx-auto px-5 h-20'>
        <Link to="home" smooth={true} duration={500} className='z-10 cursor-pointer'>
        <h1 className={`text-2xl lg:text-3xl ${nav ? 'text-white' : 'text-black'}`}
