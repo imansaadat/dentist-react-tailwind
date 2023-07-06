@@ -16,7 +16,7 @@ export const Footer = () => {
           <FooterData />
         </div>
         <div className='text-center py-5 border-t border-[#0000001a] mt-6'>
-          <p>Developed by <span className='text-blue'>Eslam Saadat (Iman)</span></p>
+          <p>Developed by <span className='text-blue'>Iman Saadat</span></p>
         </div>
       </div>
     </footer>
