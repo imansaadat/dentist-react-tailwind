@@ -15,19 +15,19 @@ const FooterData = () => {
     {
       icon: faLocation,
       title: 'Our Address',
-      Firstsubtitle: 'mumbai, india - 400104',
+      Firstsubtitle: 'Shiraz, Iran - 1234',
 
     },
     {
       icon: faClock,
       title: 'Opening Hours',
-      Firstsubtitle: '00:07am to 10:00pm',
+      Firstsubtitle: '10:00am to 10:00pm',
     },
     {
       icon: faEnvelope,
       title: 'Email Address',
-      Firstsubtitle: 'shaikhanas@gmail.com',
-      Secondsubtitle: 'anasbhai@gmail.com'
+      Firstsubtitle: 'e.saadat72@gmail.com',
+      Secondsubtitle: 'e.saadat7293@gmail.com'
     },
   ]
 
