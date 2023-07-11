@@ -1,5 +1,4 @@
 import React from 'react'
-// import Typed from 'react-typed';
 import Button from './Button';
 
 const Home = () => {
