@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Heading'
 import ServiceItems from './ServiceItems'
-import { ServicesData } from '../../data/data'
+import { servicesData } from '../../data/data'
 const Services = () => {
   return (
     <section name='services' className="py-20 bg-light-bg scroll-pt-24 ">
@@ -9,7 +9,7 @@ const Services = () => {
         <Heading  title=' our services'/>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {
-            ServicesData.map((item, index) => (
+            servicesData.map((item, index) => (
               <ServiceItems key={index} item={item} />
             ))
           }

@@ -4,6 +4,10 @@ import ImgThree from '../assets/icon-3.svg'
 import ImgFour from '../assets/icon-4.svg'
 import ImgFive from '../assets/icon-5.svg'
 import ImgSix from '../assets/icon-6.svg'
+// ProcessData
+import process1 from '../assets/process-1.png'
+import process2 from '../assets/process-2.png'
+import process3 from '../assets/process-2.png'
 
 // NavLink Data
 export const navLinksData = [
@@ -29,10 +33,8 @@ export const navLinksData = [
     }
   ]
 
-
 // ServicesData
-
-export const ServicesData = [
+export const servicesData = [
   {
     img: ImgOne,
     title: 'Alignment Specialist',
@@ -68,4 +70,26 @@ export const ServicesData = [
     title: 'Cavity Inspection',
     desc: 'Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Fugiat, Non?'
   }
+]
+
+// ProcessData
+export const processData = [
+  {
+    img: process1,
+    title: 'Cosmetic Dentistry',
+    desc: 'Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Fugiat, Non?'
+
+  },
+  {
+    img: process2,
+    title: 'Pediatric Dentistry',
+    desc: 'Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Fugiat, Non?'
+
+  },
+  {
+    img: process3,
+    title: 'Dental Implants',
+    desc: 'Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Fugiat, Non?'
+
+  },
 ]
