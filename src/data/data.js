@@ -8,7 +8,10 @@ import ImgSix from '../assets/icon-6.svg'
 import process1 from '../assets/process-1.png'
 import process2 from '../assets/process-2.png'
 import process3 from '../assets/process-2.png'
-
+// ClientsData
+import Client1 from '../assets/pic-1.png'
+import Client2 from '../assets/pic-2.png'
+import Client3 from '../assets/pic-3.png'
 // NavLink Data
 export const navLinksData = [
     {
@@ -91,5 +94,27 @@ export const processData = [
     title: 'Dental Implants',
     desc: 'Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Fugiat, Non?'
 
+  },
+]
+
+// ClientsData
+export const clientsData = [
+  {
+    img: Client1,
+    name: 'william',
+    desc: 'Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eos, Iure? Nemo Est Aspernatur Voluptatum Id, Laboriosam Asperiores Iure Omnis Alias?',
+    title: 'satisfied client'
+  },
+  {
+    img: Client2,
+    name: 'jennifer',
+    desc: 'Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eos, Iure? Nemo Est Aspernatur Voluptatum Id, Laboriosam Asperiores Iure Omnis Alias?',
+    title: 'satisfied client'
+  },
+  {
+    img: Client3,
+    name: 'john deo',
+    desc: 'Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eos, Iure? Nemo Est Aspernatur Voluptatum Id, Laboriosam Asperiores Iure Omnis Alias?',
+    title: 'satisfied client'
   },
 ]

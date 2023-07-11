@@ -1,10 +1,8 @@
 import React from "react";
 
-const ProcessItems = ({item:{img,title,desc}}) => {
+const ProcessItems = ({ item: { img, title, desc } }) => {
   return (
-    <div
-      className="bg-blue py-5 px-2 rounded text-center shadow-lg"
-    >
+    <div className="bg-blue py-5 px-2 rounded text-center shadow-lg">
       <img
         src={img}
         className="max-h-[250px] max-w-[250px] mb-3 mx-auto"
